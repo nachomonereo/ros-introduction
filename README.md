@@ -1,5 +1,13 @@
 # ROS Basic
 Fork or git clone this repository
+
+## Before build the docker
+add this into your bashrc
+```
+if [ -f "/dev_ws/setup.bash" ]; then
+    source /dev_ws/setup.bash
+fi
+```
 ## How to build the container
 To build the image  
 ```
