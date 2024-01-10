@@ -43,6 +43,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends\
     ros-$ROS_DISTRO-diagnostics \
     ros-$ROS_DISTRO-robot-state-publisher \
     ros-$ROS_DISTRO-turtlesim \
+    ros-$ROS_DISTRO-ros-tutorials \
     && apt-get clean && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /
