@@ -34,14 +34,10 @@ RUN apt-get update && apt-get install -y --no-install-recommends\
     ros-$ROS_DISTRO-rqt-gui-py \
     ros-$ROS_DISTRO-rqt-py-common \
     ros-$ROS_DISTRO-rviz \
-    ros-$ROS_DISTRO-xacro \
     ros-$ROS_DISTRO-ecl-threads \
     ros-$ROS_DISTRO-ecl-geometry \
     ros-$ROS_DISTRO-ecl-streams \
-    ros-$ROS_DISTRO-kdl-conversions \
-    ros-$ROS_DISTRO-image-geometry \
     ros-$ROS_DISTRO-diagnostics \
-    ros-$ROS_DISTRO-robot-state-publisher \
     ros-$ROS_DISTRO-turtlesim \
     ros-$ROS_DISTRO-ros-tutorials \
     && apt-get clean && rm -rf /var/lib/apt/lists/*
